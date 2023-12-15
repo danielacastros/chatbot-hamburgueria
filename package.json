@@ -1,0 +1,25 @@
+{
+  "name": "backendhamburgueriabot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielacastros/backendHamburgueriaBot.git"
+  },
+  "author": "Daniela Castro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielacastros/backendHamburgueriaBot/issues"
+  },
+  "homepage": "https://github.com/danielacastros/backendHamburgueriaBot#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.5"
+  }
+}

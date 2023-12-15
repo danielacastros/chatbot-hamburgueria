@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="card faixa-meio">
+        <img class="img-fluid mx-auto d-block imagem mt-5" src="img/logo.jpg">
+
+        <h1 class="text-center mt-4">Bem vindo à Burguer House!</h1>
+        <h3 class="text-center mt-3">Aqui você pode montar o seu combo de hamburguer + lanche!</h3>
+        <h4 class="text-center mt-3">Utilize o chat ao lado para fazer seu pedido.</h4>
+        <h4 class="text-center mt-3">Agradecemos a preferência, bom apetite!</h4>
+    </div>
+
+</body>
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger intent="WELCOME" chat-title="Hamburgueria" agent-id="712c26cb-bae7-4682-b121-d89ca7ad6e07"
+    language-code="pt-br"></df-messenger>
+
+</html>
