@@ -17,4 +17,3 @@ Para a construção desse chatbot foi utilizada a plataforma de desenvolvimento 
 - **Linguagem:** JavaScript
 - **Plataforma de Desenvolvimento:** DialogFlow
 - **Banco de Dados:** MySQL
-- **Ferramenta de teste:** Ngrok
